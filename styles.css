@@ -8,7 +8,7 @@
 
 body{
     font-family: montserrat; 
-    background-color: #000;
+    background-color: #121317;
     color: #fff;
 }
 nav{
@@ -62,4 +62,6 @@ a.active,a:hover{
 .center-content p {
     font-size: 18px;
     color: #333;
+    font-size: 18px;
+    color: #fff;
 }
