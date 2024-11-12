@@ -10,7 +10,7 @@ body{
     font-family: montserrat; 
 }
 nav{
-    background: #0082e6;
+    background: #102b63;
     height: 80px;
     width: 100%;
 }
@@ -38,6 +38,26 @@ nav ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    background: #1b9bff;
+    background: #121317;
     transition: .5s;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Altura da tela menos a altura do nav */
+    text-align: center;
+    padding: 20px;
+}
+
+.center-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; /* Espaço entre a imagem e o texto */
+}
+
+.center-content p {
+    font-size: 18px;
+    color: #333;
 }
