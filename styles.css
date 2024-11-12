@@ -8,6 +8,8 @@
 
 body{
     font-family: montserrat; 
+    background-color: #000;
+    color: #fff;
 }
 nav{
     background: #102b63;
