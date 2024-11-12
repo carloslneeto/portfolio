@@ -65,3 +65,16 @@ a.active,a:hover{
     font-size: 18px;
     color: #fff;
 }
+.linkedin-link {
+    margin-top: 20px;
+}
+
+.linkedin-link img {
+    width: 40px; /* Tamanho do ícone */
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.linkedin-link img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
