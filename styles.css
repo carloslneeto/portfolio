@@ -48,7 +48,7 @@ a.active,a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 80px); /* Altura da tela menos a altura do nav */
+    height: calc(100vh - 80px);
     text-align: center;
     padding: 20px;
 }
@@ -56,7 +56,7 @@ a.active,a:hover{
 .center-content img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 15px; /* Espaço entre a imagem e o texto */
+    margin-bottom: 15px; 
 }
 
 .center-content p {
@@ -70,11 +70,11 @@ a.active,a:hover{
 }
 
 .linkedin-link img {
-    width: 40px; /* Tamanho do ícone */
+    width: 40px; 
     height: auto;
     transition: transform 0.3s;
 }
 
 .linkedin-link img:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.1); 
 }
