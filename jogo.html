@@ -17,5 +17,20 @@
             <li><a class="active" href="#">JOGO SENHA</a></li>
         </ul>
     </nav>
+    <main class="game-container">
+        <h1>Jogo Senha</h1>
+        <p>Descubra o número secreto! Use o formato de quatro dígitos.</p>
+
+        <div class="game-controls">
+            <input type="text" id="guess-input" maxlength="4" placeholder="Digite seu palpite..." />
+            <button id="guess-button">Enviar Palpite</button>
+            <button id="reveal-button">Revelar Senha</button>
+        </div>
+
+        <h2>Tentativas</h2>
+        <ul id="attempts-list" class="attempts-list"></ul>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
