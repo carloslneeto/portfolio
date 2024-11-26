@@ -16,10 +16,10 @@ nav {
     background: #102b63;
     height: 80px;
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; 
+    padding: 0 20px;
 }
 
 label.logo {
@@ -29,7 +29,7 @@ label.logo {
 }
 
 nav ul {
-    display: flex; 
+    display: flex;
 }
 
 nav ul li {
@@ -54,19 +54,19 @@ a.active, a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 80px); 
+    min-height: calc(100vh - 80px);
     padding: 20px;
     text-align: center;
 }
 
 .center-content img {
-    width: 120px; 
-    height: 120px; 
-    border-radius: 50%; 
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
     margin-bottom: 15px;
 }
 
-.center-content h3, 
+.center-content h3,
 .center-content h4,
 .center-content a {
     margin: 10px 0;
@@ -111,9 +111,9 @@ a.active, a:hover {
     transform: scale(1.05);
     background-color: #2f3a55;
 }
-.center-content h4, 
+.center-content h4,
 .center-content p {
-    display: inline-block; 
+    display: inline-block;
     padding: 10px 15px;
     margin: 5px;
     border: 2px solid transparent;
@@ -123,9 +123,9 @@ a.active, a:hover {
 
 .center-content h4:hover,
 .center-content p:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     background-color: #2f3a55;
-    border-color: #fff; 
+    border-color: #fff;
 }
 
 .logo-line {
@@ -237,4 +237,97 @@ a.active, a:hover {
     background-color: #2f3a55;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f2a45;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-container label {
+    font-size: 16px;
+    color: #fff;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #121317;
+    color: #fff;
+}
+
+.contact-container input:focus,
+.contact-container textarea:focus {
+    outline: none;
+    border-color: #1ea7e1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container button {
+    background-color: #121317;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.contact-container button:hover {
+    background-color: #2f3a55;
+    transform: scale(1.05);
+}
+
+.contact-container button:active {
+    transform: scale(0.95);
+}
+
+footer {
+    background-color: #102b63;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-container a {
+    color: #1ea7e1;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-container a:hover {
+    color: #fff;
 }

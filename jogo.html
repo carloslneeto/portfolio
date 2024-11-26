@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>curriculo</title>
+    <title>Jogo senha</title>
 </head>
 <body>
     <nav>
         <label class="logo">Inf</label>
         <ul>
             <li><a href="index.html">EU</a></li>
-            <li><a href="curriculo.html">CURRÍCULO</a></li>
+            <li><a class="active" href="#">CURRÍCULO</a></li>
             <li><a href="portfolio.html">PORTFÓLIO</a></li>
             <li><a href="contato.html">CONTATO</a></li>
-            <li><a class="active" href="#">JOGO SENHA</a></li>
+            <li><a href="jogo.html">JOGO SENHA</a></li>
         </ul>
     </nav>
     <main class="game-container">
         <h1>Jogo Senha</h1>
         <p>Descubra o número secreto! Use o formato de quatro dígitos.</p>
-
         <div class="game-controls">
             <input type="text" id="guess-input" maxlength="4" placeholder="Digite seu palpite..." />
             <button id="guess-button">Enviar Palpite</button>
             <button id="reveal-button">Revelar Senha</button>
         </div>
-
         <h2>Tentativas</h2>
         <ul id="attempts-list" class="attempts-list"></ul>
     </main>
-
     <script src="script.js"></script>
+    <footer>
+        <div class="footer-container">
+            <p>Telefone: +55 (81) 99225-9552</p>
+            <p>País: Brasil</p>
+            <p>Cidade: Recife</p>
+            <a href="contato.html" id="footer-link">entre em contato</a>
+        </div>
+    </footer>
 </body>
 </html>
